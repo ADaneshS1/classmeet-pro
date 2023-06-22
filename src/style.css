@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+.but Button {
+    width: 50%;
+}
+
+.back {
+    background-image:linear-gradient(rgba(48, 49, 52, 0.7), rgba(4,9,30,0.7)), url("./assets//g38559.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 20rem;
+    width: 100%;
+}
+
+.flex {
+    align-items: center;
+}
+
+.img1 img {
+    display: none;
+}
+
+.texthero {
+    color: #fff;
+}
+
+.hero2p1 {
+    font-size: 22px;
+}
+
+.hero2p2 {
+    font-size: 16px;
+}
+
+.card22 {
+    padding-bottom: 0px;
+   }
+
+   .card23 {
+    padding-bottom: 0px;
+   }
+
+   .card24 {
+    padding-bottom: 0px;
+   }
+
+   .card25 {
+    padding-bottom: 0px;
+   }
+
+.card {
+    margin: 0 30px;
+}
+
+.card3 {
+    margin: 0 30px;
+    padding: 0 12px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: #f3f8ff;
+}
+
+.foot1 iframe {
+    width: 80vw;
+}
+
+.foot2 {
+    display: flex;
+    justify-content: space-around;
+    color: #f3f8ff;
+}
+
+@media (min-width:1000px) {
+
+    .back {
+        background-size: cover;
+        background-position: left;
+    }
+
+   .texthero {
+        color: #dfe2e2;
+   }
+
+   .hero1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+   }
+
+   .herop {
+    padding: 0 200px;
+   }
+
+   .card {
+    width: 20%;
+    height: 100%;
+   }
+   
+   .card22 {
+    padding-bottom: 95px;
+   }
+
+   .card23 {
+    padding-bottom: 72px;
+   }
+
+   .card24 {
+    padding-bottom: 170px;
+   }
+
+   .card25 {
+    padding-bottom: 155px;
+   }
+
+   .hero2p1 {
+    font-size: 30px;
+    }
+    
+    .hero2p2 {
+        font-size: 17px;
+    }
+
+   .galeryp p {
+     font-size: 30px;
+    }
+
+   .img3 {
+    width: 70%;
+   }
+
+   .card3 {
+    margin: 0 30px;
+    padding: 0 30px;
+    }
+
+   .hero3grid {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    /* grid-template-rows: 200px 200px; */
+    row-gap: 50px;
+    column-gap: 100px;
+    padding: 0 60px;
+   }
+
+   .foot1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+    align-items: start;
+   }
+
+   .foot1 i {
+    font-size: 22px;
+   }
+
+   .foot1 iframe {
+    width: 60%;
+    min-height: 70%;
+    }   
+}
